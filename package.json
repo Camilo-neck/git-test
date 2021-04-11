@@ -20,5 +20,10 @@
   "homepage": "https://github.com/Camilo-neck/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
