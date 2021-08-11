@@ -189,6 +189,19 @@
                             </div>
                             <br>
                             <div class="form-group row">
+                                <div class="col-md-10">
+                                    <label for="btnGroup" class="col-sm-2 control-label">Section</label>
+                                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group" data-bs-toggle="buttons" id="btnGroup">
+                                        <input type="radio" name="btnRadio" id="btnRadio1" class="btn-check btn-success active" autocomplete="off">
+                                        <label for="btnRadio1" class="btn btn-outline-success">No-Smoking</label>
+
+                                        <input type="radio" name="btnRadio" id="btnRadio2" class="btn-check" autocomplete="off">
+                                        <label for="btnRadio2" class="btn btn-outline-danger">Smoking</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group row">
                                 <label for="datetime"
                                 class="col-sm-2 control-label">
                                     Date and Time
@@ -197,20 +210,6 @@
                                     <input type="date" name="datetime" id="date">
                                     <input type="time" name="datetime" id="time">
                                 </div>
-                            </div>
-                            <br>
-                            <div class="form-group row">
-                                <div class="col-md-10">
-                                    <label for="btnGroup" class="col-sm-2 control-label">Section</label>
-                                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group" id="btnGroup">
-                                        <input type="radio" name="btnRadio" id="btnRadio1" class="btn-check" autocomplete="off">
-                                        <label for="btnRadio1" class="btn btn-outline-primary">No-Smoking</label>
-
-                                        <input type="radio" name="btnRadio" id="btnRadio2" class="btn-check" autocomplete="off">
-                                        <label for="btnRadio2" class="btn btn-outline-danger">Smoking</label>
-                                    </div>
-                                </div>
-                                
                             </div>
                             <br>
                             
@@ -441,10 +440,5 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('[data-bs-toggle="tooltip"]').tooltip();
-            })
-        </script>
     </body>
 </html>
