@@ -1,7 +1,7 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "This is a project to test git and Node-js",
+  "description": "This is a Bootstrap Web page",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
