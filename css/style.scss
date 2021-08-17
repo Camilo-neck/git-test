@@ -27,12 +27,7 @@ $carousel-item-height: 300px;
 
 .jumbotron {
 	@include zero-margin(70px, 30px);
-	padding: 70px 30px 70px 30px;
-    margin-bottom: 2rem;
-    margin: 0px auto;
-    color: floralwhite;
     background-color: $background-dark;
-    border-radius: .3rem;
 }
 
 address {
