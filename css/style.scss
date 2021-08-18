@@ -1,6 +1,6 @@
 $lt-gray: #ddd;
 $background-dark: #2d66a8;
-$background-light: #9575CD;
+$background-light: #69aef0;
 $background-pale: #aac1d8;
 
 // Height Variables
@@ -27,6 +27,7 @@ $carousel-item-height: 300px;
 
 .jumbotron {
 	@include zero-margin(70px, 30px);
+	color: #fff;
     background-color: $background-dark;
 }
 
